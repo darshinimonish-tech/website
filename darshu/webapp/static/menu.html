@@ -1,0 +1,179 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakthi Restaurant - Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0; 
+            color: #333;
+        }
+
+        
+        header {
+            background-color: #ff704d; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #ff9966;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #ff704d;
+        }
+
+        /* Menu Section */
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .menu-item {
+            background-color: #fff3e6;
+            border: 2px solid #ff9966;
+            border-radius: 10px;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0 5px 0;
+            color: #ff704d;
+        }
+
+        .menu-item p {
+            margin: 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff704d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shakthi Restaurant</h1>
+        <p>Delicious Food, Fresh Ingredients, Happy Customers!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="administration.html">Administration</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="menu-container">
+        <div class="menu-item">
+            <img src="butter chicken.jpg" alt="Butter Chicken">
+            <h3>Butter Chicken</h3>
+            <p>₹250</p>
+        </div>
+        <div class="menu-item">
+            <img src="pizza.jpg" alt="Margherita Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>₹180</p>
+        </div>
+        <div class="menu-item">
+            <img src="biriyani.jpg" alt="Veg Biryani">
+            <h3>Veg Biryani</h3>
+            <p>₹150</p>
+        </div>
+        <div class="menu-item">
+            <img src="paneer.jpg" alt="Paneer Tikka">
+            <h3>Paneer Tikka</h3>
+            <p>₹200</p>
+        </div>
+        <div class="menu-item">
+            <img src="noodles.jpg" alt="Chicken Noodles">
+            <h3>Chicken Noodles</h3>
+            <p>₹180</p>
+        </div>
+        <div class="menu-item">
+            <img src="french fries.jpg" alt="French Fries">
+            <h3>French Fries</h3>
+            <p>₹80</p>
+        </div>
+        <div class="menu-item">
+            <img src="soup.jpg" alt="Veg Soup">
+            <h3>Veg Soup</h3>
+            <p>₹100</p>
+        </div>
+        <div class="menu-item">
+            <img src="shawarma.jpg" alt="Chcken shawarma">
+            <h3>Chicken shawarma</h3>
+            <p>₹120</p>
+        </div>
+        <div class="menu-item">
+            <img src="pasta.jpg" alt="Pasta Alfredo">
+            <h3>Pasta Alfredo</h3>
+            <p>₹220</p>
+        </div>
+        <div class="menu-item">
+            <img src="sandwich.jpg" alt="Grilled Sandwich">
+            <h3>Grilled Sandwich</h3>
+            <p>₹130</p>
+        </div>
+        <div class="menu-item">
+            <img src="dosa.jpg" alt="Masala Dosa">
+            <h3>Masala Dosa</h3>
+            <p>₹100</p>
+        </div>
+        <div class="menu-item">
+            <img src="falooda.jpg.png" alt="Ice Cream">
+            <h3>Ice Cream</h3>
+            <p>₹90</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by Shakthi</p>
+    </footer>
+
+</body>
+</html>
